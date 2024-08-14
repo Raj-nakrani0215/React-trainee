@@ -1,10 +1,13 @@
+
+import CartContainer from './02 containers/CartContainer';
+import HomeContainer from './02 containers/HomeContainer'
 import './App.css';
-import ToDo from './TODO/ToDo';
 
 function App() {
   return (
     <>
-    <ToDo/>
+      <CartContainer />
+      <HomeContainer />
     </>
   );
 }
